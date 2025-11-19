@@ -1,0 +1,10 @@
+<RCC>
+  <qresource prefix="/qt/qml/Test_1/">
+    <file alias="Constants.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/Constants.qml</file>
+    <file alias="DirectoryFontLoader.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/DirectoryFontLoader.qml</file>
+    <file alias="EventListModel.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/EventListModel.qml</file>
+    <file alias="EventListSimulator.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/EventListSimulator.qml</file>
+    <file alias="CustomMenuBar.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/CustomMenuBar.qml</file>
+  </qresource>
+</RCC>
+

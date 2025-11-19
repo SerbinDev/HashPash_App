@@ -1,0 +1,11 @@
+--resource
+/home/zz6/Git/Test_1_BasicProgram_Notes/content/.qt/rcc/qmake_content.qrc
+--resource
+/home/zz6/Git/Test_1_BasicProgram_Notes/content/.qt/rcc/content_raw_qml_0.qrc
+/qt/qml/content/App.qml
+/qt/qml/content/HashPage.qml
+/qt/qml/content/PashPageForm.ui.qml
+/qt/qml/content/HashPageForm.ui.qml
+/qt/qml/content/PashPage.qml
+/qt/qml/content/HashPageContent.qml
+/qt/qml/content/PashPageContent.qml

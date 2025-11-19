@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/qt/qml/content/">
+    <file alias="App.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/content/App.qml</file>
+    <file alias="HashPage.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/content/HashPage.qml</file>
+    <file alias="PashPageForm.ui.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/content/PashPageForm.ui.qml</file>
+    <file alias="HashPageForm.ui.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/content/HashPageForm.ui.qml</file>
+    <file alias="PashPage.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/content/PashPage.qml</file>
+    <file alias="HashPageContent.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/content/HashPageContent.qml</file>
+    <file alias="PashPageContent.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/content/PashPageContent.qml</file>
+    <file alias="fonts/fonts.txt">/home/zz6/Git/Test_1_BasicProgram_Notes/content/fonts/fonts.txt</file>
+    <file alias="images/history.svg">/home/zz6/Git/Test_1_BasicProgram_Notes/content/images/history.svg</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,86 @@
+/*
+This is a UI file (.ui.qml) that is intended to be edited in Qt Design Studio only.
+It is supposed to be strictly declarative and only uses a subset of QML. If you edit
+this file manually, you might introduce QML code that is not supported by Qt Design Studio.
+Check out https://doc.qt.io/qtcreator/creator-quick-ui-forms.html for details on .ui.qml files.
+*/
+
+import QtQuick 6.2
+import QtQuick.Controls 6.2
+import Test_1
+
+Rectangle {
+    id: rectangle
+    width: 480
+    height: 600
+
+    color: Constants.backgroundColor
+
+    Label {
+        id: label
+        x: 194
+        y: 17
+        width: 92
+        height: 45
+        text: qsTr("Notes")
+        font.pointSize: 26
+    }
+
+    TextArea {
+        id: notes
+        x: 35
+        y: 115
+        width: 408
+        height: 400
+        placeholderText: qsTr("Notes")
+    }
+
+    Button {
+        id: save
+        x: 77
+        y: 530
+        width: 108
+        height: 52
+        text: qsTr("Save")
+        onClicked:noteManager.saveNote(notes.text);
+    }
+
+    Button {
+        id: btnDelete
+        x: 275
+        y: 530
+        width: 108
+        height: 52
+        text: qsTr("Delete")
+
+        onClicked: notes.text = ""
+    }
+
+    function saveNote() {
+            var noteText = notesTextArea.text;
+            var filePath = "path/to/notes.txt";
+            noteManager.saveNote(noteText, filePath);
+            notesTextArea.text = "";
+            loadNotes(); // برای بازنمایی تغییرات، یادداشت‌ها را دوباره بخوانیم
+        }
+
+        function deleteNote() {
+            var noteText = notesTextArea.text;
+            var filePath = "path/to/notes.txt";
+            noteManager.deleteNote(noteText, filePath);
+            notesTextArea.text = "";
+            loadNotes(); // برای بازنمایی تغییرات، یادداشت‌ها را دوباره بخوانیم
+        }
+
+        // تابع برای خواندن یادداشت‌ها و نمایش آنها در TextArea
+        function loadNotes() {
+            var filePath = "path/to/notes.txt";
+            var notes = noteManager.loadNotes(filePath);
+            notesTextArea.text = notes.join("\n");
+        }
+
+        // در اجرای برنامه، یادداشت‌ها را از فایل بخوانیم و در TextArea نمایش دهیم
+        Component.onCompleted: loadNotes();
+
+    }
+}
