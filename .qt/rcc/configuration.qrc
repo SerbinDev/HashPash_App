@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="qtquickcontrols2.conf">/home/zz6/Git/Test_1_BasicProgram_Notes/qtquickcontrols2.conf</file>
+  </qresource>
+</RCC>
+

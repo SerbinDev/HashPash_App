@@ -1,0 +1,16 @@
+--bare
+-I
+/home/zz6/Git/Test_1_BasicProgram_Notes/qml
+-I
+/home/zz6/Git/Test_1_BasicProgram_Notes/qml
+-I
+/usr/lib/qt6/qml
+--resource
+/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/.qt/rcc/qmake_Test_1.qrc
+--resource
+/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/.qt/rcc/Test_1_raw_qml_0.qrc
+/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/Constants.qml
+/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/DirectoryFontLoader.qml
+/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/EventListModel.qml
+/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/EventListSimulator.qml
+/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/CustomMenuBar.qml

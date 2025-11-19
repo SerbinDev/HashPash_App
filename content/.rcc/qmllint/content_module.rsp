@@ -1,0 +1,12 @@
+-I
+/home/zz6/Git/Test_1_BasicProgram_Notes/qml
+-I
+/home/zz6/Git/Test_1_BasicProgram_Notes/qml
+-I
+/usr/lib/qt6/qml
+--resource
+/home/zz6/Git/Test_1_BasicProgram_Notes/content/.qt/rcc/qmake_content.qrc
+--resource
+/home/zz6/Git/Test_1_BasicProgram_Notes/content/.qt/rcc/content_raw_qml_0.qrc
+--module
+content

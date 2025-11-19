@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Main/">
+    <file alias="main.qml">/home/zz6/Git/Test_1_BasicProgram_Notes/main.qml</file>
+  </qresource>
+</RCC>
+

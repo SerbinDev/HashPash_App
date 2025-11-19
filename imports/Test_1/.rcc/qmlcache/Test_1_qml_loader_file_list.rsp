@@ -1,0 +1,9 @@
+--resource
+/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/.qt/rcc/qmake_Test_1.qrc
+--resource
+/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/.qt/rcc/Test_1_raw_qml_0.qrc
+/qt/qml/Test_1/Constants.qml
+/qt/qml/Test_1/DirectoryFontLoader.qml
+/qt/qml/Test_1/EventListModel.qml
+/qt/qml/Test_1/EventListSimulator.qml
+/qt/qml/Test_1/CustomMenuBar.qml

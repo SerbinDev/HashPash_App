@@ -1,0 +1,15 @@
+-rootPath
+/home/zz6/Git/Test_1_BasicProgram_Notes
+-cmake-output
+-output-file
+/home/zz6/Git/Test_1_BasicProgram_Notes/.qt/qml_imports/Test_1App_conf.cmake
+-importPath
+/home/zz6/Git/Test_1_BasicProgram_Notes/qml/Main
+-importPath
+/home/zz6/Git/Test_1_BasicProgram_Notes/qml
+-importPath
+/usr/lib/qt6/qml
+-qrcFiles
+/home/zz6/Git/Test_1_BasicProgram_Notes/.qt/rcc/configuration.qrc
+/home/zz6/Git/Test_1_BasicProgram_Notes/.qt/rcc/qmake_Main.qrc
+/home/zz6/Git/Test_1_BasicProgram_Notes/.qt/rcc/Test_1App_raw_qml_0.qrc

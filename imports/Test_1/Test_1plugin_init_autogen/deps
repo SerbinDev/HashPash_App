@@ -1,0 +1,10 @@
+Test_1plugin_init_autogen/timestamp: \
+	/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/CMakeLists.txt \
+	/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/Test_1plugin_Test_1Plugin_in.cpp \
+	/home/zz6/Git/Test_1_BasicProgram_Notes/imports/Test_1/Test_1plugin_init.cpp \
+	/usr/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in \
+	/usr/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp \
+	/usr/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in \
+	/usr/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in \
+	/usr/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in \
+	/usr/bin/cmake

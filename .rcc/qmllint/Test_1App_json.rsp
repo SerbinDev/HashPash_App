@@ -1,0 +1,16 @@
+--bare
+-I
+/home/zz6/Git/Test_1_BasicProgram_Notes
+-I
+/home/zz6/Git/Test_1_BasicProgram_Notes/qml
+-I
+/usr/lib/qt6/qml
+--resource
+/home/zz6/Git/Test_1_BasicProgram_Notes/.qt/rcc/configuration.qrc
+--resource
+/home/zz6/Git/Test_1_BasicProgram_Notes/.qt/rcc/qmake_Main.qrc
+--resource
+/home/zz6/Git/Test_1_BasicProgram_Notes/.qt/rcc/Test_1App_raw_qml_0.qrc
+/home/zz6/Git/Test_1_BasicProgram_Notes/main.qml
+--json
+/home/zz6/Git/Test_1_BasicProgram_Notes/Test_1App_qmllint.json
